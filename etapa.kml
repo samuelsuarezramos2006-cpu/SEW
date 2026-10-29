@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Placemark>
+      <name>Salida: Monaco</name>
+      <description>Salida de la etapa en Monaco</description>
+      <Point>
+        <coordinates>7.422222,43.732167,48</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hito Intermedio 1</name>
+      <description>Punto kilométrico 5.6 km</description>
+      <Point>
+        <coordinates>7.425000,43.731100,8</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Meta: Monaco</name>
+      <description>Llegada de la etapa en Monaco</description>
+      <Point>
+        <coordinates>7.422222,43.732167,10</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <name>Ruta Monaco - Monaco</name>
+    <Placemark>
+      <LineString>
+        <extrude>1</extrude>
+        <tessellation>1</tessellation>
+        <coordinates>7.422222,43.732167,48
+7.425000,43.731100,8
+7.422222,43.732167,10</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LineString>
+      <Style>
+        <LineStyle>
+          <color>#ff0000ff</color>
+          <width>5</width>
+        </LineStyle>
+      </Style>
+    </Placemark>
+  </Document>
+</kml>

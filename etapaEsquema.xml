@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<etapa xmlns="http://www.uniovi.es"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.uniovi.es etapa.xsd">
+
+    <nombre>Monaco - Monaco</nombre>
+    <numero>1</numero>
+    <longitud unidad="km">9.4</longitud>
+    <fecha>22/08/2026</fecha>
+    <tiempo_ganador>00:11:45</tiempo_ganador>
+    <velocidad_media unidad="km/h">48.0</velocidad_media>
+    <desnivel unidad="m">59</desnivel>
+    <ciudad_salida>Monaco</ciudad_salida>
+    <ciudad_llegada>Monaco</ciudad_llegada>
+    <tipo>Contrarreloj Individual</tipo>
+    
+    <referencias>
+        <referencia>"https://www.lavuelta.es/es/"</referencia>
+        <referencia>"https://www.marca.com/ciclismo/vuelta-espana/clasificacion/etapa-1.html"</referencia>
+        <referencia>"https://www.sport.es/es/noticias/ciclismo/etapa-1-vuelta-espana-2026-perfil-recorrido-horario-contrarreloj-133548651"</referencia>
+    </referencias>
+    
+    <galeria_fotografias>
+        <fotografia>multimedia/mapa.jpg.jpg</fotografia>
+        <fotografia>multimedia/carrera.jpg</fotografia>
+        <fotografia>multimedia/ciclista.jpg</fotografia>
+    </galeria_fotografias>
+    
+    
+    <coordenadas_salida>
+        <latitud unidad="grados">43.732167</latitud>
+        <longitud_geo unidad="grados">7.422222</longitud_geo>
+        <altitud unidad="m">48</altitud>
+    </coordenadas_salida>
+    
+    <coordenadas_meta>
+        <latitud unidad="grados">43.732167</latitud>
+        <longitud_geo unidad="grados">7.422222</longitud_geo>
+        <altitud unidad="m">10</altitud>
+    </coordenadas_meta>
+    
+    <hitos>
+        <punto_anonimo>
+            <latitud unidad="grados">43.731100</latitud>
+            <longitud_geo unidad="grados">7.425000</longitud_geo>
+            <altitud unidad="m">8</altitud>
+            <distancia unidad="km">5.6</distancia>
+        </punto_anonimo>
+    </hitos>
+
+    <clasificacion_etapa>
+        <ciclista>
+            <posicion>1</posicion>
+            <nombre_ciclista> Tadej Pogačar</nombre_ciclista>
+            <tiempo>00:10:57</tiempo>
+            <diferencia>00:00:00</diferencia>
+        </ciclista>
+        <ciclista>
+            <posicion>2</posicion>
+            <nombre_ciclista> Ethan Hayter</nombre_ciclista>
+            <tiempo>00:10:57</tiempo>
+            <diferencia>+00:00:00</diferencia>
+        </ciclista>
+        <ciclista>
+            <posicion>3</posicion>
+            <nombre_ciclista>Joshua Tarling</nombre_ciclista>
+            <tiempo>00:11:01</tiempo>
+            <diferencia>+00:00:03:91</diferencia>
+        </ciclista>
+    </clasificacion_etapa>
+
+</etapa>

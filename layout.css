@@ -1,0 +1,34 @@
+/* ***************************************/
+/*           LaVuelta2026                */
+/*          Estilos layout               */
+/* ***************************************/
+/*    DATOS ESTUDIANTE                   */
+/* --------------------------------------*/
+/* Nombre y Apellidos:Samuel Suárez Ramos*/
+/* Correo electrónico (uniovi): uo307797 */
+/* Grupo de laboratorio:         l1      */
+/* ***************************************/
+
+
+section:has(picture) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+section:has(picture) > h3 {
+    flex-basis: 100%;
+}
+
+section:has(picture) > picture {
+    order: 1;
+}
+
+section:has(picture) > ul {
+    order: 2;
+    list-style: none;
+}
+
+
+
+

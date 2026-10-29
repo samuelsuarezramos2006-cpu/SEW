@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE etapa SYSTEM "etapa.dtd">
+<etapa>
+    <nombre>Monaco - Monaco</nombre>
+    <numero>1</numero>
+    <longitud unidad="km">9.4</longitud>
+    <fecha>22 de agosto de 2026</fecha>
+    <tiempo_ganador>00:11:45</tiempo_ganador>
+    <velocidad_media unidad="km/h">48.0</velocidad_media>
+    <desnivel unidad="m">59</desnivel>
+    <ciudad_salida>Monaco</ciudad_salida>
+    <ciudad_llegada>Monaco</ciudad_llegada>
+    <tipo>Contrarreloj Individual</tipo>
+    
+    <referencias>
+        <referencia>visitmonaco.com</referencia>
+        <referencia>gouv.mc</referencia>
+        <referencia>lavuelta.es</referencia>
+    </referencias>
+    
+    <galeria_fotografias>
+        <fotografia>multimedia/salida.jpg</fotografia>
+        <fotografia>multimedia/meta.jpg</fotografia>
+        <fotografia>multimedia/carrera.jpg</fotografia>
+        <fotografia>multimedia/ciclista.jpg</fotografia>
+        <fotografia>multimedia/mapa.jpg</fotografia>
+    </galeria_fotografias>
+    
+    <galeria_videos>
+        <video>multimedia/videoVuelta.mp4</video>
+    </galeria_videos>
+    
+    <galeria_sonidos>
+        <sonido>multimedia/podcast_Etapa1.mp3</sonido>
+    </galeria_sonidos>
+    
+    <coordenadas_salida>
+        <latitud unidad="grados">43.732167</latitud>
+        <longitud_geo unidad="grados">7.422222</longitud_geo>
+        <altitud unidad="m">48</altitud>
+    </coordenadas_salida>
+    
+    <coordenadas_meta>
+        <latitud unidad="grados">43.732167</latitud>
+        <longitud_geo unidad="grados">7.422222</longitud_geo>
+        <altitud unidad="m">10</altitud>
+    </coordenadas_meta>
+    
+    <hitos>
+        <punto_anonimo>
+            <latitud unidad="grados">43.731100</latitud>
+            <longitud_geo unidad="grados">7.425000</longitud_geo>
+            <altitud unidad="m">8</altitud>
+            <distancia unidad="km">5.6</distancia>
+        </punto_anonimo>
+    </hitos>
+    
+    
+
+<clasificacion_etapa>
+        <clasificado>
+            <posicion>1</posicion>
+            <nombre_corredor>Tadej Pogacar</nombre_corredor>
+            <tiempo>00:11:45</tiempo>
+            <diferencia>00:10:57</diferencia>
+        </clasificado>
+        <clasificado>
+            <posicion>2</posicion>
+            <nombre_corredor>Ethan Hayter</nombre_corredor>
+            <tiempo>00:11:50</tiempo>
+            <diferencia>+00:10:57</diferencia>
+        </clasificado>
+        <clasificado>
+            <posicion>3</posicion>
+            <nombre_corredor>Joshua Tarling</nombre_corredor>
+            <tiempo>00:11:01</tiempo>
+            <diferencia>+00:00:04</diferencia>
+        </clasificado>
+    </clasificacion_etapa>
+
+    <clasificacion_general>
+        <clasificado>
+            <posicion>1</posicion>
+            <nombre_corredor>Enric Mas Nicolau</nombre_corredor>
+            <tiempo>73:52:55</tiempo>
+            <diferencia>00:00:00</diferencia>
+        </clasificado>
+        <clasificado>
+            <posicion>2</posicion>
+            <nombre_corredor>Corredor Inventado B</nombre_corredor>
+            <tiempo>73:55:10</tiempo>
+            <diferencia>+00:02:15</diferencia>
+        </clasificado>
+        <clasificado>
+            <posicion>3</posicion>
+            <nombre_corredor>Corredor Inventado C</nombre_corredor>
+            <tiempo>73:57:54</tiempo>
+            <diferencia>+00:02:44</diferencia>
+        </clasificado>
+    </clasificacion_general>
+
+    <clasificacion_equipos>
+        <equipo>
+            <posicion>1</posicion>
+            <nombre_equipo>Decathlon CMA CGM Team</nombre_equipo>
+            <tiempo>222:25:14</tiempo>
+            <diferencia>00:00:00</diferencia>
+        </equipo>
+        <equipo>
+            <posicion>2</posicion>
+            <nombre_equipo>XDS Astana Team</nombre_equipo>
+            <tiempo>223:03:14</tiempo>
+            <diferencia>+00:38:00</diferencia>
+        </equipo>
+        <equipo>
+            <posicion>3</posicion>
+            <nombre_equipo> Bahrain Victorious</nombre_equipo>
+            <tiempo>223:20:00</tiempo>
+            <diferencia>+00:16:46</diferencia>
+        </equipo>
+    </clasificacion_equipos>
+
+</etapa>

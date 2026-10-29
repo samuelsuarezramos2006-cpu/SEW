@@ -1,0 +1,95 @@
+/* ***************************************/
+/*            LaVuelta2026               */
+/*         Estilos generales             */
+/* ***************************************/
+/*    DATOS ESTUDIANTE                   */
+/* --------------------------------------*/
+/* Nombre y Apellidos:Samuel Suárez Ramos*/
+/* Correo electrónico (uniovi): uo307797 */
+/* Grupo de laboratorio:        l1       */
+/* ***************************************/
+
+/* ***************************************/
+/*          Gama cromática               */
+/* ***************************************/
+/* Gama cromática del proyecto:
+   Color principal: #003366
+     Contraste de 10.49:1 con color secundario (AAA)
+     Contraste de 12.61:1 con color blanco (AAA)
+   Color secundario: #FFE9A8
+     Contraste de 10.49:1 con color principal (AAA)
+     Contraste de 17.47:1 con color negro (AAA)
+   Color blanco: #FFFFFF
+     Contraste de 21.00:1 con color negro (AAA)
+   Color negro: #000000
+     Contraste de 21.00:1 con color blanco (AAA)
+*/
+
+:root {
+    --color-principal: #003366;
+    --color-secundario: #FFE9A8;
+    --color-negro: #000000;
+    --color-blanco: #FFFFFF;
+}
+
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: var(--color-blanco);
+    color: var(--color-negro);
+}
+
+header,
+footer {
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
+}
+
+header a,
+footer a {
+    color: var(--color-secundario); /*ADVERTENCIA: color de fondo heredado de header y footer --color-principal*/
+    text-decoration: none;
+}
+
+header nav a[aria-current="page"] {
+    background-color: var(--color-secundario);
+    color: var(--color-principal);
+    font-weight: bold;
+}
+
+header + nav[aria-label="migas"] ol {
+    list-style: none;
+    font-size: 0.8em;
+}
+
+header + nav[aria-label="migas"] ol > li {
+    display: inline;
+}
+
+header + nav[aria-label="migas"] ol > li:last-child {
+    font-weight: bold;
+}
+
+section:has(video) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+section:has(article) {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 1em;
+}
+
+section:has(article) > h3 {
+    grid-column: 1 / -1;
+}
+
+h2,
+h3,
+h4 {
+    color: var(--color-principal);
+    background-color: var(--color-blanco);
+}
